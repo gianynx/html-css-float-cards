@@ -14,3 +14,9 @@
     --white: #f3ffff;
     --blue: #3587d4;
 }
+
+/*CSS body*/
+
+body {
+    background-color: var(--white_bg);
+}
