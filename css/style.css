@@ -45,11 +45,11 @@ header p {
 }
 
 .box {
-    width: 20.9rem;
+    width: 20.6rem;
     height: 6rem;
     margin-top: 2.5rem;
-    float: left;
     background-color: var(--black);
+    float: left;
 }
 
 main > .clear {
@@ -64,17 +64,17 @@ main > .clear {
 }
 
 .clear .center {
-    margin-left: 5rem;
+    margin-left: 4rem;
 }
 
 .clear .right {
-    margin-left: 5rem;
+    margin-left: 4rem;
 }
 
 .box img {
+    float: left;
     width: 6rem;
     height: 6rem;
-    float: left;
 }
 
 .box h3 {
@@ -98,5 +98,5 @@ main > .clear {
 .email {
     color: var(--blue);
     padding-left: 6.7rem;
-    padding-top: 0.3rem;
+    padding-top: 0.4rem;
 }
