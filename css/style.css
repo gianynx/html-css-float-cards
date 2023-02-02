@@ -10,7 +10,7 @@
 :root {
     --white_bg: #fffffe;
     --pink: #e32064;
-    --gray: #a7adb2;
+    --purple: #3c323f;
     --black: #0f0e17;
     --white: #f3ffff;
     --blue: #3587d4;
@@ -25,12 +25,20 @@ body {
 .container {
     margin: 0 auto;
     max-width: 1100px;
-    height: 500px;
     margin-top: 2rem;
     border: 2px solid black;
+    height: 500px;
 }
 
 header > h1 {
-    text-align: center;
     color: var(--pink);
+}
+
+header p {
+    color: var(--purple);
+    margin-top: 2.5rem;
+}
+
+.center {
+    text-align: center;
 }
