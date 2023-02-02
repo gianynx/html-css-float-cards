@@ -24,7 +24,7 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1100px;
+    max-width: 1200px;
     margin-top: 2rem;
     border: 2px solid black;
     height: 500px;
@@ -37,8 +37,36 @@ header > h1 {
 header p {
     color: var(--purple);
     margin-top: 2.5rem;
+    padding-left: 2rem;
 }
 
-.center {
+.center_header {
     text-align: center;
+}
+
+.box {
+    width: 20.9rem;
+    height: 5rem;
+    margin-top: 2.5rem;
+    border: 2px solid black;
+    float: left;
+}
+
+.clear .left {
+    margin-left: 1rem;
+}
+
+.clear .center {
+    margin-left: 5rem;
+}
+
+.clear .right {
+    margin-left: 5rem;
+}
+
+main > .clear {
+    content: '';
+    display: table;
+    clear: both;
+    margin-left: 1rem;
 }
