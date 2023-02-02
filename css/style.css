@@ -1,0 +1,16 @@
+/*CSS general*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --white_bg: #fffffe;
+    --pink: #e32064;
+    --gray: #a7adb2;
+    --black: #0f0e17;
+    --white: #f3ffff;
+    --blue: #3587d4;
+}
