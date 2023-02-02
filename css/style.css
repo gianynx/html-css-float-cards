@@ -46,10 +46,17 @@ header p {
 
 .box {
     width: 20.9rem;
-    height: 5rem;
+    height: 6rem;
     margin-top: 2.5rem;
-    border: 2px solid black;
     float: left;
+    background-color: var(--black);
+}
+
+main > .clear {
+    content: '';
+    display: table;
+    clear: both;
+    margin-left: 1rem;
 }
 
 .clear .left {
@@ -64,9 +71,32 @@ header p {
     margin-left: 5rem;
 }
 
-main > .clear {
+.box img {
+    width: 6rem;
+    height: 6rem;
+    float: left;
+}
+
+.box h3 {
+    float: left;
+    color: var(--white);
+    font-family: 'Fredoka', sans-serif;
+    padding: 0.7rem;
+}
+
+.inside {
     content: '';
     display: table;
     clear: both;
-    margin-left: 1rem;
+}
+
+.box .job {
+    color: var(--white);
+    padding-left: 6.7rem;
+}
+
+.email {
+    color: var(--blue);
+    padding-left: 6.7rem;
+    padding-top: 0.3rem;
 }
